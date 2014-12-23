@@ -1,0 +1,15 @@
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>yalp-overlay</name>
+        <description lang="en">yalp ebuilds</description>
+        <homepage>https://github.com/yalp-log/yalp-overlay</homepage>
+        <owner type="person">
+            <email>tim.messier@gmail.com</email>
+            <name>Tim Messier</name>
+        </owner>
+        <source type="git">git://github.com/yalp-log/yalp-overlay.git</source>
+        <feed>
+            https://github.com/yalp-log/yalp-overlay/commits/master.atom
+        </feed>
+    </repo>
+</repositories>
