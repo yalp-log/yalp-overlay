@@ -1,0 +1,3 @@
+# /etc/conf.d/yalp-inputs: config file for /etc/init.d/yalp-inputs
+
+YALP_OPTS="-c /etc/yalp/yalp.yaml"

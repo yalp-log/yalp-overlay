@@ -1,0 +1,3 @@
+# /etc/conf.d/yalp-parsers: config file for /etc/init.d/yalp-parsers
+
+YALP_OPTS="-c /etc/yalp/yalp.yaml"

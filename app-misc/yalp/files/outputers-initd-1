@@ -1,0 +1,11 @@
+#!/sbin/runscript
+
+command="/usr/bin/yalp-outputers"
+command_args="${YALP_OPTS}"
+command_background="1"
+pidfile="/var/run/yalp-outputers.pid"
+name="YALP outputers daemon"
+
+depend() {
+	use net logger
+}

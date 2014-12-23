@@ -1,0 +1,3 @@
+# /etc/conf.d/yalp-outputers: config file for /etc/init.d/yalp-outputers
+
+YALP_OPTS="-c /etc/yalp/yalp.yaml"
