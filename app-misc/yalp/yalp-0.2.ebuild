@@ -5,7 +5,7 @@
 EAPI=5
 PYTHON_COMPAT=(python2_7)
 
-inherit eutils distutils-r1
+inherit eutils distutils-r1 user
 
 
 DESCRIPTION="Distributed log parsing and collection"
@@ -32,7 +32,7 @@ pkg_setup() {
 }
 
 python_install_all() {
-	USE_SETUPTOOLS=1 disutils-r1_python_install_all
+	USE_SETUPTOOLS=1 distutils-r1_python_install_all
 
 	for s in inputs outputers parsers; do
 		newinitd "${FILESDIR}"/${s}-initd-1 yalp-${s}
